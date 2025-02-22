@@ -31,6 +31,8 @@ $App.a4PcTused = localStorage.getItem("a4PcTused");
 $App.TotTimeH = localStorage.getItem("TotTimeH");
 $App.TotTimeM = localStorage.getItem("TotTimeM");
 $App.a4HDT = localStorage.getItem("a4HDT");
+$App.a1notes = localStorage.getItem("a1notes");
+$App.a2notes = localStorage.getItem("a2notes");
 localStorage.setItem("a1Tused",$App.a1Tused);
 $App.a1PcTused = $scope.Calculate($App.a1MT+"-"+$App.a1Tused,5);
 localStorage.setItem("a1PcTused",$App.a1PcTused);
@@ -139,6 +141,8 @@ $scope.PushButton14_click = function() {$App.a2Tused = $scope.Calculate($App.a2T
 localStorage.setItem("a2Tused",$App.a2Tused);
 $App.a2PcTused = $scope.Calculate($App.a2MT+"-"+$App.a2Tused,5);
 localStorage.setItem("a2PcTused",$App.a2PcTused);};
+$scope.PushButton15_click = function() {window.document.location.reload();};
+$scope.TextArea1_change = function() {localStorage.setItem("a1notes",$App.a1notes);};
 });
 NeoApp.controller("Settings_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
