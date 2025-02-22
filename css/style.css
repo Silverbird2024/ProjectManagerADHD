@@ -70,7 +70,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #PushButton8 {position:absolute;left:263px;top:61px;width:131px;height:39px;margin:0;}
 #Container4 {position:absolute;left:22px;top:133px;width:182px;height:203px;margin:0;border-width:1px;border-style:solid;background-color:#fff;;overflow-x:hidden;overflow-y:hidden}
 #TextInput25 {position:absolute;left:123px;top:65px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}
-#Headline11 {position:absolute;left:10px;top:8px;width:142px;height:32px;margin:0;font-size:12pt;font-weight:600;text-align:center}
+#Headline11 {position:absolute;left:10px;top:3px;width:157px;height:35px;margin:0;font-size:12pt;font-weight:600;text-align:center}
 #Headline12 {position:absolute;left:2px;top:37px;width:121px;height:143px;margin:0;font-size:8pt;font-weight:600;text-align:left}
 #TextInput23 {position:absolute;left:123px;top:32px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}
 #TextInput39 {position:absolute;left:123px;top:100px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}
@@ -206,7 +206,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline52 {position:absolute;left:128px;top:27px;width:105px;height:22px;margin:0;font-size:12pt;font-weight:600;text-align:left}
 #Container1 {position:absolute;left:214px;top:133px;width:182px;height:203px;margin:0;border-width:1px;border-style:solid;background-color:#fff;;overflow-x:hidden;overflow-y:hidden}
 #TextInput7 {position:absolute;left:123px;top:65px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}
-#Headline5 {position:absolute;left:10px;top:8px;width:142px;height:32px;margin:0;font-size:12pt;font-weight:600;text-align:center}
+#Headline5 {position:absolute;left:10px;top:3px;width:160px;height:37px;margin:0;font-size:12pt;font-weight:600;text-align:center}
 #Headline6 {position:absolute;left:2px;top:37px;width:121px;height:143px;margin:0;font-size:8pt;font-weight:600;text-align:left}
 #TextInput8 {position:absolute;left:123px;top:32px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}
 #TextInput9 {position:absolute;left:123px;top:100px;width:53px;height:28px;margin:0;font-size:8pt;font-weight:600}

@@ -171,7 +171,7 @@ localStorage.setItem("a1PcTused",$App.a1PcTused);};
 $scope.TextInput43_change = function() {localStorage.setItem("a2Tused",$App.a2Tused);
 $App.a2PcTused = $scope.Calculate($App.a2MT+"-"+$App.a1Tused,5);
 localStorage.setItem("a2PcTused",$App.a2PcTused);};
-$scope.PushButton12_click = function() {$App.a1Tused = $scope.Calculate($App.a1Tused+"+1",-1);
+$scope.PushButton12_click = function() {$App.a1Tused = $scope.Calculate($App.a1Tused+"-1",-1);
 localStorage.setItem("a1Tused",$App.a1Tused);
 $App.a1PcTused = $scope.Calculate($App.a1MT+"-"+$App.a1Tused,5);
 localStorage.setItem("a1PcTused",$App.a1PcTused);};
@@ -188,7 +188,7 @@ $scope.PushButton13_click = function() {$App.a2Tused = $scope.Calculate($App.a2T
 localStorage.setItem("a2Tused",$App.a2Tused);
 $App.a2PcTused = $scope.Calculate($App.a2MT+"-"+$App.a2Tused,5);
 localStorage.setItem("a2PcTused",$App.a2PcTused);};
-$scope.PushButton14_click = function() {$App.a2Tused = $scope.Calculate($App.a2Tused+"+1",-1);
+$scope.PushButton14_click = function() {$App.a2Tused = $scope.Calculate($App.a2Tused+"-1",-1);
 localStorage.setItem("a2Tused",$App.a2Tused);
 $App.a2PcTused = $scope.Calculate($App.a2MT+"-"+$App.a2Tused,5);
 localStorage.setItem("a2PcTused",$App.a2PcTused);};
