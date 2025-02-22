@@ -143,6 +143,7 @@ $App.a2PcTused = $scope.Calculate($App.a2MT+"-"+$App.a2Tused,5);
 localStorage.setItem("a2PcTused",$App.a2PcTused);};
 $scope.PushButton15_click = function() {window.document.location.reload();};
 $scope.TextArea1_change = function() {localStorage.setItem("a1notes",$App.a1notes);};
+$scope.TextArea2_change = function() {localStorage.setItem("a1notes",$App.a1notes);};
 });
 NeoApp.controller("Settings_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;

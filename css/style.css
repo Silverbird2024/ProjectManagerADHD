@@ -45,7 +45,8 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline57 {position:absolute;left:14px;top:60px;width:384px;height:59px;margin:0;color:#E0E0E0;font-size:25pt;font-style:italic;font-weight:800}
 #PushButton15 {position:absolute;left:30px;top:22px;width:44px;height:34px;margin:0;}
 #PushButton15:hover {color:red}
-#TextArea1 {position:absolute;left:11px;top:313px;width:386px;height:137px;margin:0;}
+#TextArea1 {position:absolute;left:11px;top:313px;width:386px;height:137px;margin:0;font-size:10pt;font-weight:600}
+#TextArea2 {position:absolute;left:15px;top:558px;width:386px;height:137px;margin:0;font-size:10pt;font-weight:600}
 #Settings {position:relative;width:100%;height:100%;overflow:auto;;background-color:#FFF}
 #Headline3 {position:absolute;left:13px;top:60px;width:365px;height:56px;margin:0;font-size:12pt;font-weight:600;text-align:left}
 #PushButton2 {position:absolute;left:264px;top:17px;width:131px;height:39px;margin:0;}
